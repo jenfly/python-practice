@@ -6,7 +6,10 @@ print('Hello world!')
 print(1 + 2)
 
 for i in range(5):
-    print(i)
+    if i == 3:
+        print('Kittens')
+    else:
+        print(i)
 
 
 x = np.arange(10)
